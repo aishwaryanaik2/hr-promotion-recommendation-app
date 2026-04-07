@@ -21,7 +21,17 @@ st.subheader("Enter Employee Details")
 # Clean original user-friendly inputs
 department = st.selectbox(
     "Department",
-    ["Sales & Marketing", "Operations", "Technology", "Analytics", "Finance", "HR"]
+    [
+        "Analytics",
+        "Finance",
+        "HR",
+        "Legal",
+        "Operations",
+        "Procurement",
+        "R&D",
+        "Sales & Marketing",
+        "Technology"
+    ]
 )
 
 region = st.selectbox(
