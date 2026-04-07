@@ -49,7 +49,6 @@ previous_year_rating = st.number_input(
     max_value=5
 )
 length_of_service = st.number_input("Length of Service", min_value=0)
-KPIs_met = st.selectbox("KPIs > 80%", [0, 1])
 awards_won = st.selectbox("Awards Won", [0, 1])
 avg_training_score = st.number_input("Average Training Score", min_value=0)
 
@@ -64,7 +63,6 @@ input_df = pd.DataFrame([{
     "age": age,
     "previous_year_rating": previous_year_rating,
     "length_of_service": length_of_service,
-    "KPIs_met >80%": KPIs_met,
     "awards_won?": awards_won,
     "avg_training_score": avg_training_score
 }])
